@@ -25,4 +25,105 @@
     font-weight: 400;
     font-family: Okra, Helvetica, sans-serif;
   }
+
+  &-left {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 52px;
+    justify-content: space-around;
+    padding: 0px 10px;
+    position: relative;
+    margin: auto;
+    width: 240px;
+  }
+  .todo {
+    display: flex;
+    width: 776px;
+    height: 52px;
+    position: relative;
+    border-radius: 8px;
+    background-color: white;
+    margin: auto;
+  }
+  .location {
+    box-sizing: border-box;
+    cursor: auto;
+    display: block;
+    height: 20px;
+    width: 20px;
+  }
+  .address {
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    cursor: text;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 21px;
+    margin: 0px 10px 0px 5px;
+    padding: 1px 2px;
+    text-align: start;
+    width: 178px;
+    word-spacing: 0px;
+    text-shadow: none;
+    text-transform: none;
+    border: none;
+    border-style: none;
+  }
+  .arrow {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    fill: rgb(79, 79, 79);
+    height: 12px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 12px;
+  }
+  .search {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 51px;
+    justify-content: center;
+    margin: 1px -6px -1px -6px;
+    width: 54px;
+    background-color: white;
+  }
+  .line {
+    border-color: rgb(207, 207, 207);
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    display: block;
+    color: gray;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 2px;
+  }
+  .right {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    cursor: text;
+    display: block;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 52px;
+    padding: 1px 2px;
+    text-align: start;
+    width: 482.422px;
+  }
 }
