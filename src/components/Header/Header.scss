@@ -1,0 +1,28 @@
+.header {
+  width: 1406px;
+  height: 456px;
+  background-image: url("https://www.nycfoodpolicy.org/wp-content/uploads/2021/05/shutterstock_1492306919.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &-logo {
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    box-shadow: inset 2px 2px 40px gray;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  &-text {
+    text-align: center;
+    color: white;
+    font-size: 2.9rem;
+    margin-top: 3 rem;
+    font-weight: 400;
+    font-family: Okra, Helvetica, sans-serif;
+  }
+}
