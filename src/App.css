@@ -1,4 +1,44 @@
 :root {
   --primary-box-shadow: rgb(28 28 28/8%) 0px 2px 8px;
   --border-white: rgb(232, 232, 232);
+  --gray: rgb(207, 207, 207);
+  --zomato-red: #ff7e8b;
+  --zomato-gray: #828282;
+  --border-white: rgb(232, 232, 232);
+  --inactive-color: #f8f8f8;
+  --inactive-text: #696969;
+  --filter-text: #9c9c9c;
+  --secondary-bg: #f8f8f8;
+  --heading-text: #1c1c1c;
+  --collection-shadow: rgb(0 0 0 / 8%) 0px 3px 12px;
+  --tag-red: #d92662;
+  --tag-blue: #256fef;
+  --tag-green: #24963f;
+  --subtitle-text: #363636;
+}
+.absolute-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.max-width {
+  max-width: 1100px;
+  margin: 0px auto;
+}
+
+.cur-po {
+  cursor: pointer;
+}
+
+.collection-title {
+  font-size: 30px;
+  color: var(--heading-text);
+  margin-bottom: 32px;
+  font-weight: 500;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: black;
 }

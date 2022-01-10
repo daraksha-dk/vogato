@@ -1,4 +1,6 @@
 import React from "react";
+import { useState } from "react";
+
 import "./Header.scss";
 import logo from "../../assets/logo.png";
 import location from "../../assets/location.png";
@@ -6,6 +8,7 @@ import Arrow from "../../assets/arrow.svg";
 import Search from "../../assets/search.svg";
 
 const Header = () => {
+  const [activeTab, setActiveTab] = useState("Delivery");
   return (
     <div className="header">
       <div>
