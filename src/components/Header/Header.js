@@ -8,7 +8,6 @@ import Arrow from "../../assets/arrow.svg";
 import Search from "../../assets/search.svg";
 
 const Header = () => {
-  const [activeTab, setActiveTab] = useState("Delivery");
   return (
     <div className="header">
       <div>
