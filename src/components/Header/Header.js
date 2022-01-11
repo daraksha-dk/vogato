@@ -1,6 +1,4 @@
 import React from "react";
-import { useState } from "react";
-
 import "./Header.scss";
 import logo from "../../assets/logo.png";
 import location from "../../assets/location.png";
