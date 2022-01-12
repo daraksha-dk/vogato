@@ -15,8 +15,8 @@ const settings = {
 
 const Collection = ({ list }) => {
   return (
-    <div className="collection-wrapper">
-      <div className="max-width collection">
+    <div className="collection">
+      <div className="max-width collection-wrapper">
         <div className="collection-title">Collections</div>
         <div className="collection-subtitle-row">
           <div className="collection-subtitle-text">
