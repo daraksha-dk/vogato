@@ -1,5 +1,4 @@
 import React from "react";
-import "./Nightlife.scss";
 import { nightLife } from "../../data/nightLife";
 import Collection from "../collection/collection";
 import ExploreSection from "../exploreSection/exploreSection";

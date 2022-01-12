@@ -16,6 +16,13 @@
   --tag-green: #24963f;
   --subtitle-text: #363636;
 }
+.App {
+  width: 1350px;
+  overflow-y: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .absolute-center {
   display: flex;
   align-items: center;

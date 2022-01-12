@@ -1,5 +1,4 @@
 import React from "react";
-import "./DiningOut.scss";
 import Collection from "../collection/collection";
 import Filters from "../Filters/filters";
 import ExploreSection from "../exploreSection/exploreSection";

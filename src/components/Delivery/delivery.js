@@ -1,6 +1,5 @@
 import React from "react";
 import Filters from "../Filters/filters";
-import "./delivery.scss";
 import { restaurants } from "../../data/restaurants";
 import DeliveryCollections from "./deliveryCollections";
 import TopBrands from "../topBrands/topBrands";
