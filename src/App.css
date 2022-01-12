@@ -23,6 +23,7 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .absolute-center {
   display: flex;
   align-items: center;
@@ -48,4 +49,9 @@
 .slick-next:before,
 .slick-prev:before {
   color: black;
+}
+@media only screen and(max-width:540px) {
+  .App {
+    max-width: 290px;
+  }
 }
