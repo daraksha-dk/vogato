@@ -1,5 +1,5 @@
 import React from "react";
-import "./exploreCard.scss";
+import "./ExploreCard.scss";
 
 const ExploreCard = ({ restaurant, i }) => {
   const name = restaurant?.info?.name ?? "";

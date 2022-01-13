@@ -1,6 +1,6 @@
 import React from "react";
-import "./exploreSection.scss";
-import ExploreCard from "../exploreCard/exploreCard";
+import "./ExploreSection.scss";
+import ExploreCard from "../exploreCard/ExploreCard";
 
 const ExploreSection = ({ restaurants, collectionName }) => {
   return (

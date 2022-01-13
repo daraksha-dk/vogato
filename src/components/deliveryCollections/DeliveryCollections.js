@@ -1,9 +1,9 @@
 import React from "react";
-import "./deliveryCollections.scss";
-import DeliveryItem from "./deliveryItem";
+import "./DeliveryCollections.scss";
+import DeliveryItem from "../deliveryItem/DeliveryItem";
 import Slider from "react-slick";
-import PrevArrow from "../../components/carousel/prevArrow";
-import NextArrow from "../../components/carousel/nextArrow";
+import PrevArrow from "../../components/carousel/PrevArrow";
+import NextArrow from "../../components/carousel/NextArrow";
 
 const deliveryItems = [
   {

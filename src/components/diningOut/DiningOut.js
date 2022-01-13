@@ -1,8 +1,8 @@
 import React from "react";
-import Collection from "../collection/collection";
-import Filters from "../Filters/filters";
-import ExploreSection from "../exploreSection/exploreSection";
-import { dining } from "../../data/dining";
+import Collection from "../collection/Collection";
+import Filters from "../filters/Filters";
+import ExploreSection from "../exploreSection/ExploreSection";
+import { dining } from "../../data/Dining";
 const diningList = dining;
 const diningFilters = [
   {

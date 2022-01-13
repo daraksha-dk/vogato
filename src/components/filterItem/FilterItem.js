@@ -1,5 +1,5 @@
 import React from "react";
-import "./filterItem.scss";
+import "./FilterItem.scss";
 
 const FilterItem = ({ filter }) => {
   return (

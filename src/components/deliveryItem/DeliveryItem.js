@@ -1,5 +1,5 @@
 import React from "react";
-import "./deliveryItem.scss";
+import "./DeliveryItem.scss";
 const DeliveryItem = ({ item }) => {
   return (
     <div>

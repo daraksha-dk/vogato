@@ -1,9 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
-import PrevArrow from "../../components/carousel/prevArrow";
-import NextArrow from "../../components/carousel/nextArrow";
-
-import "./collection.scss";
+import PrevArrow from "../../components/carousel/PrevArrow";
+import NextArrow from "../../components/carousel/NextArrow";
+import "./Collection.scss";
 
 const settings = {
   infinite: false,

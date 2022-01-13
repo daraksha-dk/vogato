@@ -1,6 +1,6 @@
 import React from "react";
-import FilterItem from "./filterItem";
-import "./filters.scss";
+import FilterItem from "../filterItem/FilterItem";
+import "./Filters.scss";
 
 const Filters = ({ filterList }) => {
   return (

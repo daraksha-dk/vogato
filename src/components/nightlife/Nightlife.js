@@ -1,8 +1,8 @@
 import React from "react";
-import { nightLife } from "../../data/nightLife";
-import Collection from "../collection/collection";
-import ExploreSection from "../exploreSection/exploreSection";
-import Filters from "../Filters/filters";
+import { nightLife } from "../../data/NightLife";
+import Collection from "../collection/Collection";
+import ExploreSection from "../exploreSection/ExploreSection";
+import Filters from "../filters/Filters";
 
 const nightLifeList = nightLife;
 const nightFilters = [

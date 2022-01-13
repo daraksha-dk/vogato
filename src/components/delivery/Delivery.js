@@ -1,9 +1,9 @@
 import React from "react";
-import Filters from "../Filters/filters";
-import { restaurants } from "../../data/restaurants";
-import DeliveryCollections from "./deliveryCollections";
-import TopBrands from "../topBrands/topBrands";
-import ExploreSection from "../exploreSection/exploreSection";
+import Filters from "../filters/Filters";
+import { restaurants } from "../../data/Restaurants";
+import DeliveryCollections from "../deliveryCollections/DeliveryCollections";
+import TopBrands from "../topBrands/TopBrands";
+import ExploreSection from "../exploreSection/ExploreSection";
 const deliveryFilters = [
   {
     id: 1,
