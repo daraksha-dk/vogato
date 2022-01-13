@@ -21,7 +21,6 @@ const Header = () => {
           </div>
           <div>
             <input
-              // value=""
               placeholder="Ywca, 1, Ashoka Rd, Hanuman Road Area, Connaught Place, New Delhi, Delhi"
               className="address"
             />
@@ -36,7 +35,6 @@ const Header = () => {
         </div>
         <div className="header-right">
           <input
-            // value=""
             placeholder="Search for restaurant, cuisine or a dish"
             className="right"
           />
