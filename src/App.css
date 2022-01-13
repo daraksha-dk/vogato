@@ -50,8 +50,3 @@
 .slick-prev:before {
   color: black;
 }
-@media only screen and(max-width:540px) {
-  .App {
-    max-width: 290px;
-  }
-}
