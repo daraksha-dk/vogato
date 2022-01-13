@@ -78,8 +78,6 @@ const settings = {
   infinite: false,
   slidesToShow: 4,
   slidesToScroll: 1,
-  nextArrow: <NextArrow />,
-  prevArrow: <PrevArrow />,
 };
 
 const DeliveryColletions = () => {
@@ -87,10 +85,10 @@ const DeliveryColletions = () => {
     <div className="delivery-collections">
       <div className="max-width">
         <div className="collection-title">Eat what makes you happy</div>
-        <Slider {...settings}>
-          {deliveryItems.map((item) => {
-            return <DeliveryItem item={item} />;
-          })}
+        <Slider {...settings} prevArrow={<PrevArrow />}>
+          {deliveryItems.map((item) => (
+            <DeliveryItem key={item.id} item={item} />
+          ))}
         </Slider>
       </div>
     </div>

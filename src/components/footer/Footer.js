@@ -20,7 +20,7 @@ const Footer = () => {
       </div>
       <div className="middle-section">
         <div className="first">
-          <h6 class="title">Company</h6>
+          <h6 className="title">Company</h6>
           <div>
             <a href="https://www.zomato.com/who-we-are">
               <p className="para">Who We Are</p>
@@ -43,61 +43,61 @@ const Footer = () => {
           </div>
         </div>
         <div className="second">
-          <h6 class="title">For Foodies</h6>
+          <h6 className="title">For Foodies</h6>
           <div>
             <a href="https://www.zomato.com/policies">
-              <p class="para">Code of Conduct</p>
+              <p className="para">Code of Conduct</p>
             </a>
             <a href="https://community.zomato.com/">
-              <p class="para">Community</p>
+              <p className="para">Community</p>
             </a>
             <a href="https://www.zomato.com/bloggers">
-              <p class="para">Blogger Help</p>
+              <p className="para">Blogger Help</p>
             </a>
             <a href="https://www.zomato.com/mobile">
-              <p class="para">Mobile Apps</p>
+              <p className="para">Mobile Apps</p>
             </a>
           </div>
         </div>
         <div className="third">
           <div className="up">
-            <h6 class="title">For Restaurants</h6>
+            <h6 className="title">For Restaurants</h6>
             <nav>
               <a href="https://www.zomato.com/partner_with_us">
-                <p class="para">Add restaurant</p>
+                <p className="para">Add restaurant</p>
               </a>
             </nav>
           </div>
           <div className="down">
-            <h6 class="title">For Enterprises</h6>
+            <h6 className="title">For Enterprises</h6>
             <nav>
               <a href="https://www.zomato.com/enterprise-solutions">
-                <p class="para">Zomato for Work</p>
+                <p className="para">Zomato for Work</p>
               </a>
             </nav>
           </div>
         </div>
         <div className="fourth">
           <div>
-            <h6 class="title">For You</h6>
+            <h6 className="title">For You</h6>
             <nav>
               <a href="https://www.zomato.com/privacy">
-                <p class="para">Privacy</p>
+                <p className="para">Privacy</p>
               </a>
               <a href="https://www.zomato.com/conditions">
-                <p class="para">Terms</p>
+                <p className="para">Terms</p>
               </a>
               <a href="https://www.zomato.com/security">
-                <p class="para">Security</p>
+                <p className="para">Security</p>
               </a>
               <a href="https://www.zomato.com/directory">
-                <p class="para">Sitemap</p>
+                <p className="para">Sitemap</p>
               </a>
             </nav>
           </div>
         </div>
         <div className="fifth">
-          <h6 class="title">Social links</h6>
+          <h6 className="title">Social links</h6>
           <div className="social-icons">
             <div className="social-logo">
               <img src={Facebook} alt="facebook" />

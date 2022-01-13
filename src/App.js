@@ -3,17 +3,17 @@ import { useState } from "react";
 import "./App.css";
 import Footer from "./components/footer/Footer";
 import TabOptions from "./components/tabOptions/TabOptions";
-import HomePage from "./pages/homePage/HomePage";
 import Delivery from "./components/delivery/Delivery";
 import DiningOut from "./components/diningOut/DiningOut";
 import Nightlife from "./components/nightlife/Nightlife";
+import Header from "./components/header/Header";
 
 function App() {
   const [activeTab, setActiveTab] = useState("Delivery");
 
   return (
     <div className="App">
-      <HomePage />
+      <Header />
       <TabOptions activeTab={activeTab} setActiveTab={setActiveTab} />
       {getCorrectScreen(activeTab)}
       <Footer />
