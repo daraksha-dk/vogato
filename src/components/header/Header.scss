@@ -106,35 +106,4 @@
     width: 482.422px;
     outline: none;
   }
-  @media only screen and(max-width:320px) {
-    .header {
-      width: 320 px;
-      height: 400 px;
-      background-image: url(https://www.nycfoodpolicy.org/wp-content/uploads/2021/05/shutterstock_1492306919.jpg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
-    }
-    .header-logo {
-      width: 10%;
-      height: 10%;
-    }
-    .header-text {
-      font-size: 1rem;
-    }
-
-    .header-left {
-      width: 50 px;
-      display: flex;
-      height: 40 px;
-      font-size: 12px;
-      justify-content: space-around;
-      padding: 0 px 5 px;
-      margin: auto;
-      font-weight: 100;
-      background-color: white;
-      border-radius: 8 px;
-      align-items: center;
-    }
-  }
 }
