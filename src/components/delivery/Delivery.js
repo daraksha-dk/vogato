@@ -42,7 +42,6 @@ const delivery = () => {
       </div>
       <DeliveryCollections />
       <TopBrands />
-
       <ExploreSection
         restaurants={restaurantsList}
         collectionName="Delivery Restaurants in Delhi"

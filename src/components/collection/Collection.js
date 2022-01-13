@@ -36,7 +36,6 @@ const Collection = ({ list }) => {
                   alt={item.title}
                   className="collection-image"
                 />
-                <div className="gradient-bg"></div>
                 <div className="collection-card-title">{item.title}</div>
                 <div className="collection-card-subtitle">
                   <div>{item.places}</div>

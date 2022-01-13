@@ -5,14 +5,13 @@
   box-shadow: var(--collection-shadow);
   border-radius: 8px;
 }
-
 .delivery-item-image {
   object-fit: cover;
   height: 100%;
   width: 100%;
   border-radius: 8px;
+  cursor: pointer;
 }
-
 .delivery-item-title {
   font-size: 20px;
   line-height: 32px;

@@ -35,7 +35,7 @@ const ExploreCard = ({ restaurant, i }) => {
         {goldOff && <div className="gold-off absolute-center">{goldOff}</div>}
         {discount && <div className="discount absolute-center">{discount}</div>}
       </div>
-      <div className="res-row">
+      <div className="res">
         <div className="res-name">{name}</div>
         {rating && (
           <div className="res-rating absolute-center">
@@ -43,7 +43,7 @@ const ExploreCard = ({ restaurant, i }) => {
           </div>
         )}
       </div>
-      <div className="res-row">
+      <div className="res">
         {cuisines.length && (
           <div className="res-cuisine">
             {cuisines.map((item, i) => (
