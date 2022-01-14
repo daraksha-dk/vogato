@@ -113,7 +113,6 @@ const Footer = () => {
               className="app-logo"
               src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"
             />
-
             <img
               alt="app"
               className="app-logo"
