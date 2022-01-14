@@ -2,7 +2,7 @@ import React from "react";
 import "./DeliveryItem.scss";
 const DeliveryItem = ({ item }) => {
   return (
-    <div>
+    <div className="delivery-item">
       <div className="delivery-item-cover">
         <img
           src={item.cover}

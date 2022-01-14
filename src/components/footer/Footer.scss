@@ -3,11 +3,12 @@
   margin: 0px auto;
   height: 456px;
   margin-top: 70px;
-}
-.section-up {
-  display: flex;
-  justify-content: space-between;
-  .section-left {
+
+  &-up {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-left {
     font-size: 32px;
     color: black;
     box-sizing: border-box;
@@ -16,29 +17,35 @@
     font-weight: 200;
     font-family: "Alfa Slab One", cursive;
   }
-  .section-right {
+  &-right {
     width: 252px;
     height: 38px;
     display: flex;
     justify-content: space-between;
   }
-  .india {
-    width: 123px;
-    height: 38px;
-    border-radius: 6px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-  }
-  .eng {
-    width: 123px;
-    height: 38px;
-    text-align: center;
-    border-radius: 6px;
-    font-size: 18px;
-    font-weight: 400;
-  }
 
+  &-india {
+    width: 123px;
+    height: 38px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  &-eng {
+    width: 123px;
+    height: 38px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  &-section {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
   .first {
     width: 201px;
     height: 187px;
@@ -59,17 +66,12 @@
     width: 201px;
     height: 187px;
   }
-}
-.middle-section {
-  margin-top: 40px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.social-icons {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
 
   .social-logo {
     display: flex;
@@ -83,52 +85,52 @@
       -3px -3px 8px rgba(75, 93, 104, 0.1);
     border-radius: 50px;
   }
-}
-.title {
-  box-sizing: border-box;
-  font-family: Okra, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  height: 19px;
-  letter-spacing: 2px;
-  margin-block-end: 12px;
-  margin-block-start: 0px;
-  margin-bottom: 12px;
-  margin-inline-end: 0px;
-  margin-inline-start: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
-  text-transform: uppercase;
-  width: 201.656px;
-}
-a {
-  box-sizing: border-box;
-  color: rgb(105, 105, 105);
-  cursor: pointer;
-  font-family: Okra, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  height: 21px;
-  line-height: 21px;
-  margin-block-end: 5px;
-  margin-block-start: 5px;
-  margin-bottom: 5px;
-  margin-inline-end: 0px;
-  margin-inline-start: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 5px;
-  text-decoration: none;
-  list-style: none;
-  text-decoration-thickness: auto;
-  width: 201.656px;
-}
-.app {
-  margin-top: 20px;
-}
-.app-logo {
-  width: 137px;
-  height: 40px;
-  margin-top: 5px;
+  .title {
+    box-sizing: border-box;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 19px;
+    letter-spacing: 2px;
+    margin-block-end: 12px;
+    margin-block-start: 0px;
+    margin-bottom: 12px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    width: 201.656px;
+  }
+  a {
+    box-sizing: border-box;
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    height: 21px;
+    line-height: 21px;
+    margin-block-end: 5px;
+    margin-block-start: 5px;
+    margin-bottom: 5px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5px;
+    text-decoration: none;
+    list-style: none;
+    text-decoration-thickness: auto;
+    width: 201.656px;
+  }
+  .app {
+    margin-top: 20px;
+  }
+  .app-logo {
+    width: 137px;
+    height: 40px;
+    margin-top: 5px;
+  }
 }

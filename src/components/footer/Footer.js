@@ -7,18 +7,18 @@ import Instagram from "./../../assets/instagram.svg";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="section-up">
-        <div className="section-left">Vogato</div>
-        <div className="section-right">
-          <select className="india">
+      <div className="footer-up">
+        <div className="footer-left">Vogato</div>
+        <div className="footer-right">
+          <select className="footer-india">
             <option>India</option>
           </select>
-          <select className="eng">
+          <select className="footer-eng">
             <option>English</option>
           </select>
         </div>
       </div>
-      <div className="middle-section">
+      <div className="footer-section">
         <div className="first">
           <h6 className="title">Company</h6>
           <div>
