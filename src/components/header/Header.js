@@ -8,35 +8,35 @@ import Search from "../../assets/search.svg";
 const Header = () => {
   return (
     <div className="header">
-      <div>
-        <img className="header-logo" src={logo} alt="logo" />
+      <div className="header-logo">
+        <img src={logo} alt="logo" />
       </div>
       <h2 className="header-text">
         Discover the best food & drinks in Delhi NCR
       </h2>
       <div className="todo">
-        <div className="header-left">
-          <div>
-            <img src={location} alt="location" className="location" />
+        <div className="todo-left">
+          <div className="todo-location">
+            <img src={location} alt="location" className="loco" />
           </div>
-          <div>
+          <div className="todo-address">
             <input
               placeholder="Ywca, 1, Ashoka Rd, Hanuman Road Area, Connaught Place, New Delhi, Delhi"
-              className="address"
+              className="add"
             />
           </div>
-          <div>
-            <img src={Arrow} alt="arrow" className="arrow" />
+          <div className="todo-arrow">
+            <img src={Arrow} alt="arrow" className="arr" />
           </div>
         </div>
-        <div className="line"></div>
-        <div className="search">
-          <img src={Search} alt="search" className="search-icon" />
+        <div className="todo-line"></div>
+        <div className="todo-search">
+          <img src={Search} alt="search" className="icon" />
         </div>
-        <div className="header-right">
+        <div className="todo-right">
           <input
             placeholder="Search for restaurant, cuisine or a dish"
-            className="right"
+            className="rig"
           />
         </div>
       </div>
