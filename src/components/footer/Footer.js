@@ -78,23 +78,21 @@ const Footer = () => {
           </div>
         </div>
         <div className="fourth">
-          <div>
-            <h6 className="title">For You</h6>
-            <nav>
-              <a href="https://www.zomato.com/privacy">
-                <p className="para">Privacy</p>
-              </a>
-              <a href="https://www.zomato.com/conditions">
-                <p className="para">Terms</p>
-              </a>
-              <a href="https://www.zomato.com/security">
-                <p className="para">Security</p>
-              </a>
-              <a href="https://www.zomato.com/directory">
-                <p className="para">Sitemap</p>
-              </a>
-            </nav>
-          </div>
+          <h6 className="title">For You</h6>
+          <nav>
+            <a href="https://www.zomato.com/privacy">
+              <p className="para">Privacy</p>
+            </a>
+            <a href="https://www.zomato.com/conditions">
+              <p className="para">Terms</p>
+            </a>
+            <a href="https://www.zomato.com/security">
+              <p className="para">Security</p>
+            </a>
+            <a href="https://www.zomato.com/directory">
+              <p className="para">Sitemap</p>
+            </a>
+          </nav>
         </div>
         <div className="fifth">
           <h6 className="title">Social links</h6>
@@ -115,8 +113,7 @@ const Footer = () => {
               className="app-logo"
               src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"
             />
-          </div>
-          <div>
+
             <img
               alt="app"
               className="app-logo"
