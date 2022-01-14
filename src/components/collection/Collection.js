@@ -1,15 +1,12 @@
 import React from "react";
 import Slider from "react-slick";
-import PrevArrow from "../../components/carousel/PrevArrow";
-import NextArrow from "../../components/carousel/NextArrow";
+
 import "./Collection.scss";
 
 const settings = {
   infinite: false,
   slidesToShow: 4,
   slidesToScroll: 1,
-  nextArrow: <NextArrow />,
-  prevArrow: <PrevArrow />,
 };
 
 const Collection = ({ list }) => {

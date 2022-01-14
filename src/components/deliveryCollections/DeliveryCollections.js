@@ -2,8 +2,6 @@ import React from "react";
 import "./DeliveryCollections.scss";
 import DeliveryItem from "../deliveryItem/DeliveryItem";
 import Slider from "react-slick";
-import PrevArrow from "../../components/carousel/PrevArrow";
-import NextArrow from "../../components/carousel/NextArrow";
 
 const deliveryItems = [
   {
@@ -85,7 +83,7 @@ const DeliveryColletions = () => {
     <div className="delivery-collections">
       <div className="max-width">
         <div className="collection-title">Eat what makes you happy</div>
-        <Slider {...settings} prevArrow={<PrevArrow />}>
+        <Slider {...settings}>
           {deliveryItems.map((item) => (
             <DeliveryItem key={item.id} item={item} />
           ))}

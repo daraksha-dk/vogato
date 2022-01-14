@@ -21,4 +21,16 @@
     overflow: hidden;
     margin-top: 6px;
   }
+  @media (max-width: 954px) {
+    &-cover {
+      width: 160px;
+    }
+    &-image {
+      width: 100%;
+    }
+    &-title {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
 }

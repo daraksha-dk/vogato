@@ -1,7 +1,5 @@
 import React from "react";
 import Slider from "react-slick";
-import NextArrow from "../carousel/NextArrow";
-import PrevArrow from "../carousel/PrevArrow";
 import "./TopBrands.scss";
 
 const topBrandsList = [

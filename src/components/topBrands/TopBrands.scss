@@ -17,3 +17,11 @@
   width: 100%;
   object-fit: cover;
 }
+@media (max-width: 954px) {
+  .top-brands-image {
+    border-radius: inherit;
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+  }
+}
