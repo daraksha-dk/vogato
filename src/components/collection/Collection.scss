@@ -53,4 +53,17 @@
     bottom: 10px;
     font-size: 14px;
   }
+  @media (max-width: 954px) {
+    height: 350px;
+    &-subtitle-text {
+      font-size: 14px;
+    }
+    &-location {
+      font-size: 14px;
+    }
+    &-image {
+      height: 70%;
+      width: 60%;
+    }
+  }
 }

@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="footer-section">
         <div className="first">
           <h6 className="title">Company</h6>
-          <div>
+          <nav>
             <a href="https://www.zomato.com/who-we-are">
               <p className="para">Who We Are</p>
             </a>
@@ -40,11 +40,11 @@ const Footer = () => {
             <a href="https://www.zomato.com/investor-relations">
               <p className="para">Investor Relations</p>
             </a>
-          </div>
+          </nav>
         </div>
         <div className="second">
           <h6 className="title">For Foodies</h6>
-          <div>
+          <nav>
             <a href="https://www.zomato.com/policies">
               <p className="para">Code of Conduct</p>
             </a>
@@ -57,7 +57,7 @@ const Footer = () => {
             <a href="https://www.zomato.com/mobile">
               <p className="para">Mobile Apps</p>
             </a>
-          </div>
+          </nav>
         </div>
         <div className="third">
           <div className="up">

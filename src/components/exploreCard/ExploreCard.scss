@@ -3,7 +3,7 @@
   padding: 10px;
   border-radius: 15px;
   border: 1px solid transparent;
-  transition: transform 0.25s;
+  transition: transform 0.7s ease-in-out;
 
   &-first {
     margin-top: 12px;
@@ -77,6 +77,11 @@
     left: 0px;
     bottom: 14px;
   }
+  @media (max-width: 954px) {
+    &-image {
+      width: 650px;
+    }
+  }
 }
 .explore-card:hover {
   transform: scale(0.9);
@@ -148,4 +153,9 @@
   height: 1px;
   margin: 10px 0px 5px;
   background-color: var(--border-white);
+}
+@media (max-width: 954px) {
+  .res-row {
+    width: 650px;
+  }
 }
